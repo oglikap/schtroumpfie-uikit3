@@ -1,0 +1,88 @@
+.bs-slogan {
+  font-weight: bold;
+  line-height: 1;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.05rem;
+  color: #111;
+}
+
+#hero.bs-hero {
+//  max-width: 1680px;
+  background-image: url( '../img/banner.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45% 20%;
+  padding-bottom: 6em;
+}
+
+.bs-tiles {
+  margin: auto;
+  font-size: 14px;
+//  border: 1px solid rgba(255, 255, 255, .15);
+  padding: 0;
+  > div:nth-child(1) {
+    background: $red-85;
+//    border: 3px double white;
+  }
+  > div:nth-child(2) {
+    background: rgba(255, 255, 255, .45);
+  }
+  > div:nth-child(3) {
+    background: rgba(0, 0, 0, .45);
+    background: $red-85;
+//    border: 3px double white;
+  }
+  > div:nth-child(4) {
+    background: rgba(255, 255, 255, .75);
+  }
+  p {
+    color: rgba(255, 255, 255, .75);
+  }
+}
+
+// M E D I A  Q U E R I E S
+
+@media screen and (min-width: 640px) {
+
+  #hero.bs-hero {
+  //  background-image: url( '../img/banner.jpg' );
+  //  background-repeat: no-repeat;
+  //  background-size: cover;
+    background-position: 45% 20%;
+    padding-bottom: 9em;
+    img {
+      padding-top: 3em;
+    }
+  }
+
+  .bs-slogan {
+    font-size: 1.165em;
+  }
+  .bs-tiles {
+    width: 90%;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+
+  .bs-slogan {
+    font-size: 1.5em;
+  }
+  .bs-tiles {
+    width: 85%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .bs-slogan {
+    font-size: 1.75em;
+  }
+  .bs-tiles {
+    width: 70%;
+  }
+
+}

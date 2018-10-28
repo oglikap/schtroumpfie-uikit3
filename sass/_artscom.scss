@@ -1,0 +1,43 @@
+.bs-page-logo {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  opacity: .7;
+}
+
+#hero-artscom h1 {
+  font-family: $header-font-special;
+  font-size: 2.5em;
+  opacity: .7;
+  letter-spacing: 4px;
+}
+
+p.bs-toneel-subtitle {
+//  font-size: 1.25em;
+  font-variant: small-caps;
+  color: #222;
+  padding-bottom: 2.5em;
+  line-height: 1;
+  font-size: .875em;
+}
+#arts-comics .bs-toneel-title {
+  line-height: 1;
+}
+
+.single-toneel .uk-container h2 {
+  color: $red;
+}
+
+.bs-toneel-text {
+  border: 3px double $red-65;
+}
+
+// M E D I A  Q U E R I E S
+
+@media screen and (min-width: 600px) {
+
+  .bs-page-logo {
+    top: 20%;
+  }
+
+}

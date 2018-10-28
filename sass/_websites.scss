@@ -1,0 +1,63 @@
+.bs-websmurf-bg {
+  background: url('../img/websites-bg.png') no-repeat center center;
+  background-size: contain;
+  padding: 2em 1em;
+  opacity: .75;
+}
+#hero-websites {
+  > h1 {
+    font-family: $header-font-special;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0 2em;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    opacity: .6;
+    font-weight: bold;
+    color: yellow;
+  }
+  .bs-websmurf-bg > p.font-red {
+  //  width: 80%;
+    line-height: 1.125;
+    padding: 3em 3em 0 3em;
+  }
+}
+#websites-overzicht {
+  padding: .5em;
+}
+
+.single-websites {
+  .uk-container {
+    .custom-logo-link img {
+      width: 55%;
+      opacity: .5;
+    }
+    h2 {
+      color: $red;
+    }
+  }
+}
+// M E D I A  Q U E R I E S
+
+@media screen and (min-width: 600px) {
+
+  .single-websites .uk-container .custom-logo-link img {
+    width: 33%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  #hero-websites {
+    .bs-websmurf-bg > p.font-red {
+      padding: 3em 8em 0 8em;
+      line-height: normal;
+      font-size: 1.125em;
+    }
+  }
+  .bs-websmurf-bg {
+    padding-top: 6em;
+  }
+
+}

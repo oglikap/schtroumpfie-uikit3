@@ -1,0 +1,15 @@
+#sidebar {
+  font-size: 14px;
+  max-width: 1600px;
+  margin: auto;
+  > div > div > .widget {
+    > .module-heading {
+      text-align: center;
+    }
+    // > .text-widget {
+    //   img {
+    //     border-radius: 50%;
+    //   }
+    // }
+  }
+}

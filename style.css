@@ -1,0 +1,39 @@
+/*
+Theme Name: Schtroumpfie Uikit 3
+Author: Rutger Kroon
+Author URI: https://wordpress.org/
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+/* Alignment */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+	margin-right: 1.5rem;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 15px;
+	margin-left: 1.5rem;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.alignnone {
+	margin: 10px 0;
+}

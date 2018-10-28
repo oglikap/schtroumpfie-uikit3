@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('../fonts/2FDF27_8_0.woff2') format('woff2'), url('../fonts/2FDF27_8_0.woff') format('woff'), url('../fonts/2FDF27_8_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TheHandBold';
+  src: url('../fonts/2EF3AC_0_0.eot');src: url('../fonts/2EF3AC_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EF3AC_0_0.woff2') format('woff2'),url('../fonts/2EF3AC_0_0.woff') format('woff'),url('../fonts/2EF3AC_0_0.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+$font: 'Avenir Next Pro Medium', sans-serif;
+$header-font: 'Cabin Sketch', cursive;
+$header-font-special: 'TheHandBold', cursive;
+$red: #840f0a;
+$red-85: rgba(136, 31, 24, .85);
+$red-65: rgba(121, 33, 33, .6);
+$red-10: rgba(132, 15, 10, 0.1);
+
+.font-red {
+  color: $red;
+}
+.font-24px {
+  font-size: 24px;
+}
+.font-22px {
+  font-size: 22px;
+}
+.font-19px {
+  font-size: 19px;
+}
+.font-16px {
+  font-size: 16px;
+}
+html, body {
+  font-family: $font;
+//  font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font;
+}
+.uk-link:hover, a:hover {
+  color: $red-85;
+}
+.uk-link, a {
+  color: $red;
+}
+.bs-bg-fiber {
+  background: url('../img/about-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+.uk-button-danger {
+  background-color: $red;
+  &:hover {
+    background-color: $red-85;
+  }
+}
+
+@import "navbar";
+@import "header";
+@import "sidebar";
+@import "websites";
+@import "artscom";
+@import "hvrbox";
+@import "home";
+
+// Imported wordpress css
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+	margin-right: 1.5rem;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 15px;
+	margin-left: 1.5rem;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.alignnone {
+	margin: 10px 0;
+}
+
+.wp-caption-text {
+  font-size: .875rem;
+  font-variant: small-caps;
+  margin-top: 0;
+}
+
+// M E D I A  Q U E R I E S

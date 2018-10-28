@@ -1,0 +1,41 @@
+.uk-navbar-right {
+  align-items: baseline;
+}
+
+.bs-logo-area > .uk-logo {
+  font-family: $header-font;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: yellow;
+  opacity: .8;
+}
+
+.bs-description {
+  margin-top: -1em;
+  color: #efefef;
+  font-variant: small-caps;
+  color: rgba(239, 239, 239, .7);
+}
+
+.uk-nav > li > a {
+  text-transform: uppercase;
+}
+
+.bs-dark-nav {
+  background: #212121 !important;
+  box-shadow: 1px 1px 0 #333;
+  height: 60px;
+}
+
+@media screen and (min-width: 640px) {
+
+  .bs-description {
+    padding-left: 1em;
+    font-size: 1.25em;
+  }
+
+  .bs-logo-area > .uk-logo {
+    font-size: 1.75em;
+  }
+
+}

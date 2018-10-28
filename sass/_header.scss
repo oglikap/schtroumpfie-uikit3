@@ -1,0 +1,74 @@
+.bs-toneel-panel {
+  .uk-link, a {
+    color: rgba(255, 255, 255, .5);
+  }
+}
+
+.bs-bg-toneel {
+  background: rgba(0,0,0,.15);
+//  background: rgba(84, 84, 0, 0.15);
+  border-radius: 2px;
+  margin-top: 4em;
+  margin-bottom: 6em;
+  border: 3px double rgba(255, 255, 255, .4);
+  min-width: 45%;
+  max-width: 60%;
+  .bs-header-special {
+    font-family: $header-font-special;
+    letter-spacing: 4px;
+    font-size: 2.5em;
+    font-weight: bold;
+    &:after {
+      position: relative;
+      display: block;
+      margin: 10px 0 0 0;
+      width: 55px;
+      height: 4px;
+      background: white;
+      content: '';
+    }
+  }
+  .bs-subheader {
+    font-size: 1.125em;
+    line-height: 0;
+  }
+}
+
+.bs-schtroumpfie {
+  margin: auto;
+  opacity: .4;
+  a {
+    width: 50%;
+    margin: auto;
+    img {
+      text-align: center;
+    }
+  }
+}
+
+// M E D I A  Q U E R I E S
+
+@media screen and (min-width:600px) {
+
+  .bs-bg-toneel {
+    max-width: 80%;
+    margin-top: 10em;
+    margin-bottom: 12em;
+    .bs-header-special {
+      font-size: 3.5em;
+    }
+    .bs-subheader {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+
+  .bs-bg-toneel {
+    .bs-header-special {
+      font-size: 4.5em;
+    }
+  }
+
+}
